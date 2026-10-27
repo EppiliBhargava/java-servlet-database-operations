@@ -82,7 +82,25 @@ The uploaded source files do not include a Maven/Gradle build file or a database
 
 ## Screenshots
 
-Add real screenshots of the running application to the `screenshots/` directory, then embed them here. Suggested captures:
+## Screenshots
+
+The following screenshots demonstrate the application's user interface and database operation pages.
+
+![Application screenshot 1](screenshots/Screenshot%202026-10-27%20133349.png)
+
+![Application screenshot 2](screenshots/Screenshot%202026-10-27%20133406.png)
+
+![Application screenshot 3](screenshots/Screenshot%202026-10-27%20133455.png)
+
+![Application screenshot 4](screenshots/Screenshot%202026-10-27%20133507.png)
+
+![Application screenshot 5](screenshots/Screenshot%202026-10-27%20133533.png)
+
+![Application screenshot 6](screenshots/Screenshot%202026-10-27%20133549.png)
+
+![Application screenshot 7](screenshots/Screenshot%202026-10-27%20133605.png)
+
+![Application screenshot 8](screenshots/Screenshot%202026-10-27%20133635.png)
 
 | Screenshot | Suggested filename |
 |---|---|
