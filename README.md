@@ -82,8 +82,6 @@ The uploaded source files do not include a Maven/Gradle build file or a database
 
 ## Screenshots
 
-## Screenshots
-
 The following screenshots demonstrate the application's user interface and database operation pages.
 
 ![Application screenshot 1](screenshots/Screenshot%202026-10-27%20133349.png)
