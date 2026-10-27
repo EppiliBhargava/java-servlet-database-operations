@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Database Operations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{box-sizing:border-box}
+        body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#0f172a,#1e293b 55%,#0f766e);color:#e2e8f0;display:flex;align-items:center;justify-content:center;padding:30px}
+        .wrap{width:min(1050px,100%);animation:fadeUp .7s ease}
+        .hero{text-align:center;margin-bottom:30px}
+        .badge{display:inline-block;padding:7px 14px;border:1px solid #334155;border-radius:999px;background:#0f172acc;font-size:12px;letter-spacing:1.5px;color:#5eead4}
+        h1{font-size:clamp(30px,5vw,52px);margin:16px 0 8px}
+        .hero p{margin:0;color:#94a3b8;font-size:16px}
+        .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+        .card{display:block;text-decoration:none;color:inherit;background:#ffffff0d;border:1px solid #ffffff18;border-radius:20px;padding:24px;min-height:150px;backdrop-filter:blur(12px);transition:.3s;animation:fadeUp .7s ease both}
+        .card:hover{transform:translateY(-7px);background:#ffffff18;border-color:#5eead4;box-shadow:0 15px 35px #0004}
+        .icon{font-size:30px;margin-bottom:15px}.card h2{margin:0 0 7px;font-size:21px}.card p{margin:0;color:#94a3b8;font-size:14px;line-height:1.5}
+        .footer{text-align:center;margin-top:25px;color:#64748b;font-size:12px}
+        @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+        @media(max-width:760px){.grid{grid-template-columns:1fr 1fr}} @media(max-width:480px){body{padding:18px}.grid{grid-template-columns:1fr}}
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="hero">
+        <span class="badge">DATABASE CONTROL PANEL</span>
+        <h1>Database Operations</h1>
+        <p>Choose an operation to manage your database tables.</p>
+    </div>
+    <div class="grid">
+        <a class="card" href="select.html"><div class="icon">&#128269;</div><h2>SELECT</h2><p>Retrieve and view records from a table.</p></a>
+        <a class="card" href="create.html"><div class="icon">&#43;</div><h2>CREATE</h2><p>Create a new database table.</p></a>
+        <a class="card" href="insert.html"><div class="icon">&#8618;</div><h2>INSERT</h2><p>Add new values and records.</p></a>
+        <a class="card" href="update.html"><div class="icon">&#9998;</div><h2>UPDATE</h2><p>Modify existing table values.</p></a>
+        <a class="card" href="alter.html"><div class="icon">&#9881;</div><h2>ALTER</h2><p>Change the structure of a table.</p></a>
+        <a class="card" href="delete.html"><div class="icon">&#9003;</div><h2>DELETE</h2><p>Remove records from a table.</p></a>
+    </div>
+    <div class="footer">Java Servlet &bull; Database Operations</div>
+</div>
+</body>
+</html>
